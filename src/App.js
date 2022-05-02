@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Dinner from './dinner.js';
+import Burhan from './burhan.js';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <hr/> 
       <Dinner dishName="Karahi"  sweetDish="Gajar ka halwa"/>
       <hr/>
+      <Burhan hght="5.11" clor="white"/>
+      <br/>
+      <Burhan clor="brown" hght="5.4"/>
     </div>   
   );
 }
