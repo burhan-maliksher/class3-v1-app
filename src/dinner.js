@@ -1,5 +1,5 @@
 import React from 'react';
-
+// using props
 function Dinner (props){
     return(
         <div>
