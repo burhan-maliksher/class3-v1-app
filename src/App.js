@@ -1,17 +1,17 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './App.css';
 import Dinner from './dinner.js';
+import dinnerUseContext from './dinnerUseContext';
 
 function App() {
+  let count =useState(1)
+  
   return (
+  <dinnerUseContext.Provider  value={count}>
     <div className='App'>
-      <Dinner dishName="Nihaari"  sweetDish="kheer"/>
-      <hr/>
-      <Dinner dishName="Biryani"  sweetDish="Jaleebi"/>
-      <hr/> 
-      <Dinner dishName="Karahi"  sweetDish="Gajar ka halwa"/>
-      <hr/>
+      <Dinner/>  
     </div>   
+  </dinnerUseContext.Provider>
   );
 }
 

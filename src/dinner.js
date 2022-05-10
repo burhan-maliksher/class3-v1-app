@@ -1,10 +1,10 @@
 import React from 'react';
+import DinnerMenu from 'react';
 
-function Dinner (props){
+const Dinner= ()=>{
     return(
         <div>
-            <h1>Today we are serving {props.dishName}</h1>
-            <h1>Today we are also serving sweet dishes {props.sweetDish}</h1>
+            <DinnerMenu />
         </div>
     )
 
