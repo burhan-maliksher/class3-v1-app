@@ -8,8 +8,12 @@ const DinnerMenu =()=>{
     return(
         <div>
         <h2>Today we are serving {dinnerValue[0]}</h2>
+        <br/>
+        <button onClick={()=>{dinnerValue[1](++dinnerValue[0])}}>
+          Increment
+        </button>
         </div>
-    )
+    );
 }
 
 export default DinnerMenu;

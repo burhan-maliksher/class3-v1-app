@@ -1,5 +1,5 @@
 import React from 'react';
-import DinnerMenu from 'react';
+import DinnerMenu from './dinnerMenu.js';
 
 const Dinner= ()=>{
     return(
