@@ -1,8 +1,10 @@
-const dinnerReducer =(state,action){
+const dinnerReducer =(state,action)=>{
     switch(action){
-        case 'Increment':
-            return state + 1;
-    }
+        case 'sweet':
+            return state + ", sweets"
+        case 'juice':
+            return state + ", juice"    
+    };
 }
 
 export default dinnerReducer;
